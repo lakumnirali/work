@@ -47,8 +47,7 @@
             height: 100px;
         }
         .pantitle{
-            margin-top: 3px;
-            margin-right: 0px;
+        text-align: center;
         }
        
         
@@ -56,13 +55,17 @@
 </head>
 
 <body>
-   
+    <h1 class="pantitle">New pan card Details</h1>
     <form action="aget-method.php" id= "user-form" method="get" >
-        <h1 class="pantitle">New pan card Details</h1>
+        
         <table >
             <tr>
                 <td><label>First Name:</label></td>
                 <td><input type="text" id="firstname" class="in_size" name="field" autocomplete="off" autofocus="autofocus" required> <br><span id="firstNameCheck"></span></td>
+            </tr>
+            <tr>
+                <td><label>middle Name:</label></td>
+                <td><input type="text" id="middleName" class="in_size" name="field" autocomplete="off" autofocus="autofocus" required> <br><span id="middleNameCheck"></span></td>
             </tr>
              <tr>
                 <td><label>Last Name:</label></td>
@@ -108,25 +111,16 @@
                 <span id="stateCheck"  ></span></td>
             </tr>
             <tr>
-                <td> <label >Qualification</label></td>
-                <td> <select name="Qualification" id="Qualification" >
-                    <option value="Select Qualification">Select Qualification </option>
-                    <option value="B.com">B.com</option>
-                    <option value="B.sc">B.sc</option>
-                    <option value="B.E">B.E</option>
-                    <option value="B.A">B.A</option>
-                    <option value="">B.A</option>
+                <td> <label >Image select</label></td>
+                <td> <select name="image select" id="image select" >
+                    
+                    <option value="photo">pasportsize photo</option>
+                    <option value="front">Aadharcard image front</option>
+                    <option value="back">Aadharcard image Back</option>
+                   
                 </select></td>
             </tr>
-            <tr>
-                <td><label class="specialization" >Specialization</label></td>
-                <td>
-                    <input type="radio" name="box" >Computer Science <br>
-                    <input type="radio" name="box" >Information Technology <br>
-                    <input type="radio" name="box" >Computer Architecture <br>
-                    <input type="radio" name="box" >Tele Communication
-                </td>
-            </tr>
+           
             <tr>
                 <td><Label>Password:</Label></td>
                 <td><input type="password" id="password" class="in_size" autocomplete="off" autofocus="autofocus" required><br>
