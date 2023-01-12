@@ -37,6 +37,24 @@
         return true;
     }
   
+    function checkName() {
+        
+        var uName = user.value.trim();
+        if (uName == '') {
+            document.getElementById('middleNameCheck').innerHTML = "** Enter your name please..."
+            return false;
+        }
+        var exp = /^[A-Za-z]{3,6}$/;
+        if (!exp.test(uName)) {
+            document.getElementById('middleNameCheck').innerHTML = "** Only Alphabets, Numbers and Underscore and between 3 to 10 characters."
+        }
+        else{
+            document.getElementById('middleNameCheck').innerHTML = ""
+        }
+
+        return true;
+    }
+  
     function checkLname(){
         var lName = userLast.value.trim();
         if (lName == '') {
