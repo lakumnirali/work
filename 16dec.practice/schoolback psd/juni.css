@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #f0b52b; */
+}
+.container{
+    width: 1365px;
+    /* background-color: #f0b52b; */
+}
+.row{
+    display: flex;
+   }
+   .ml-a{
+    margin-left: auto;
+   }
+.logo{
+    padding: 35px 0px 45px 60px;
+    
+}
+.bgcrl::before{
+/* content: ; */
+background-color:blueviolet ;
+    
+}
+.header{
+   /* color: #3752a5; */
+}
+.toolbox{
+    display: flex;
+    
+}
+.navbar ul {
+    margin: 0 auto;
+    /* background-color: #3752a5; */
+}
+
+.navbar li {
+    padding-top: 45px;
+    display: inline-block;
+   
+}
+.navbar li a{
+    padding-right: 70px;
+    text-decoration: none;
+    line-height: 5px;
+    font-size: 17px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Josefin Sans";
+/* background-color: #3752a5; */
+
+}
+.icon{
+   color: #ffffff; 
+  padding-right: 5px;
+  margin-right: 5px;
+}
+/* backtoschool */
+.backtoschool{
+}
