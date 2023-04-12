@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <STYle>
+        table{
+            border: 1px solid rgb(238, 19, 56);
+            margin: 0 auto;
+            width: 500px;
+            height: 500px;
+            text-align: center;
+        }
+        td{
+            border: 1px solid rgb(238, 19, 56);
+            
+        }
+    </STYle>
+</head>
+<body>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <center><H1> REGISTRATION FORM</H1></center>
+                <!-- <td><input type="text" id="Name" value="typ your name"> -->
+                <!-- </td> -->
+            </tr>
+            <tr>
+                <td>NAME:</td>
+                <td><input type="text" id="Name" value="typ your name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>BIRTH DATE:</td>
+                    <td><input type="date" id="Name" value="DATE" required></td>
+                </tr>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><textarea name="" id="" cols="5" rows="2" style="width: 9px; height: 40px;" required></textarea></td>
+            </tr>
+            <tr>
+                     <td>mobile no.</td>
+                 <input type="tel" onkeypress="return (event.which >= 48 && event.which <= 57)" name="mobile" id="mobile" required> <span>*</span>
+   
+            </tr>
+            <tr>
+                <td>email</td>
+                <td><input type="email" onkeyup="checkemail(this)" name="email" id="email" required> <span id="emailError">*</span>
+            </td>
+            </tr>
+            <tr>
+                <td><button>submit</button></td>
+            </tr>
+        </table>
+</form>
+</body>
+</html>
