@@ -1,7 +1,31 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #f0b52b;
 }
-#navbar{
-display: flex;
+.container{
+    margin: 0 auto;
+}
+.navbar{
+    background-color: aqua;
+}
+.logo{
+    display: flex;
+}
+#navbar,.ml-a{
+    display: flex;
+}
+.ml-a {
+margin-left: auto;
+
+}
+.ml-a li a{
+    text-decoration: none;
+    color: #faf8f8;
+}
+.ml-a li{
+    display: inline-block;
+}
+.icon{
+    color: #faf8f8;
 }
